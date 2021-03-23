@@ -398,8 +398,8 @@ div .lb-dataContainer{display: block;width: fit-content;}
                }
 
       .c3columnas { 
-	               width: 80%; 
-	               left: 10%;
+	               width: 100%; 
+	               margin-left: 5%;
 	               margin-top: 0px;
 	               display: flex;
 	               flex-wrap: wrap;
@@ -409,7 +409,7 @@ div .lb-dataContainer{display: block;width: fit-content;}
                    }
 
        .c3columnas .imagen{
-	                       width: 90%; 
+	                       width: 100%; 
 	                       display: flex;
                            }
 	   .imagen1txt{
@@ -498,7 +498,7 @@ div .lb-dataContainer{display: block;width: fit-content;}
 	                  border-radius: 80%;
                       }
            .contenedorB{
-	                    width: 90%; 
+	                    width: 120%; 
 	                    margin-left: 5%;
 	                    margin-top: 5%;
 	                    display: flex;
@@ -513,10 +513,7 @@ div .lb-dataContainer{display: block;width: fit-content;}
 	                     padding-bottom: 10%;
                          }
 	
-           .footerB{
-	                top:230%;
-	
-                    }
+
 	
 }
 
