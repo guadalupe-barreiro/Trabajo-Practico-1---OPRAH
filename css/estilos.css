@@ -112,9 +112,8 @@ h1{
 	position: absolute;
 	text-align: center;
 	top: 40%;
-	margin-left: 1%;
 	font-size: 25px;
-	
+	right: 81%;
 	opacity: 0;             
     transition: 0.6s; 
 }
@@ -123,6 +122,7 @@ h1{
 	opacity: 1;
     background-color:rgba(0,0,0,0.63);
 	border:6px solid rgba(0,0,0,0.63);
+	color: rgba(255,255,255,1.00);
 }
 
 .imagen2txt{
@@ -130,8 +130,8 @@ h1{
 	position: absolute;
 	text-align: center;
 	top: 40%;
-    margin-left: 6%;
 	font-size: 25px;
+	right: 52%;
     
 	opacity: 0;             
     transition: 0.6s; 
@@ -141,6 +141,7 @@ h1{
 	opacity: 1;
     background-color:rgba(0,0,0,0.63);
 	border:6px solid rgba(0,0,0,0.63);
+	color: rgba(255,255,255,1.00);
 }
 
 .imagen3txt{
@@ -148,8 +149,8 @@ h1{
 	position: absolute;
 	text-align: center;
 	top: 40%;
-    margin-left: 5%;
 	font-size: 25px;
+	right: 17%;
 	
     opacity: 0;             
     transition: 0.6s; 
@@ -159,6 +160,7 @@ h1{
 	opacity: 1;
     background-color:rgba(0,0,0,0.63);
 	border:6px solid rgba(0,0,0,0.63);
+	color: rgba(255,255,255,1.00);
 }
 
 
