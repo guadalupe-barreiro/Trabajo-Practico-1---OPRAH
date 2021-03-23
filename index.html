@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta  charset="utf-8">
+    <meta keywords= "html, up, produccion digital">
+    <title>Oprah Winfrey</title>
+	  
+	  <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	  
+	<link href="css/estilos.css" type="text/css" rel="stylesheet">	
+  </head>
+
+<body>
+	
+	<a name="arriba"></a>
+	
+	<div id= "contenedor">
+		<header class="header">
+			<a href="index.html" >
+			<img class="nombreoprah" src="img/oprahtitulo.png" alt="">
+			</a>
+	
+			    <div id="navegador">
+                    <ul>
+                       <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)">
+		               <a herf="">
+						
+						   <img class="barramenu" src="img/barramenu.png" alt=""> 
+					   </a>
+                       <div id="subseccion1">
+                           <p>
+							   <a href="momentosemblematicos.html"> Emblematic Moment</a>
+						   </p>
+                           <p>
+							   <a href="show.html"> Show</a>
+						   </p>
+	                       <p>
+							   <a href="biography.html"> Biography</a>
+						   </p>
+                       </div>
+                       </li>
+                     </ul>
+                       <div class="borrar"></div>
+                    </div>
+		</header>
+	</div>
+	
+	<section>
+		
+		<div class="cuerpo">
+			
+			<img class="fondoyfirma" src="img/fondoyfirma.jpg" alt="">
+			
+			<div class="titulos">
+			   <h2>
+				BORN IN 01 . 29 . 1954
+			   </h2>
+			
+			   <h1>
+				EXPLORING OPRAH'S HISTORY
+			   </h1>
+			</div>
+		    
+			<div class="botonreadmore">
+				<a target="_blank" href="https://www.biography.com/media-figure/oprah-winfrey">
+					<h2 class="readmore"> 
+						READ MORE
+					</h2>
+				</a>
+			</div>
+		
+			<div class="c3columnas">
+		        
+				<div class="imagen">
+			        <a href="momentosemblematicos.html">
+						<img src="img/emblematicmoments.jpg" alt="">
+					</a>	
+				    <p class="imagen1txt"> EMBLEMATIC MOMENT </p>
+				</div>
+		        
+				<div class="imagen">
+			        <a href="show.html">
+						<img src="img/show.jpg" alt=""	>
+					</a>
+		            <p class="imagen2txt"> SHOW </p>
+				</div>
+				
+		        <div class="imagen">
+			        <a href="biography.html">
+						<img src="img/biography.jpg" alt="">
+					</a>
+		            <p class="imagen3txt">BIOGRAPHY </p>
+				</div>
+					
+	        </div>
+			
+		</div>
+	
+	    <div class="arriba">
+		    <a href="#arriba">
+			<img src="img/flechaup.png" alt="arriba">
+			</a>
+	    </div>
+	
+			
+		</section>
+		
+		<footer class="footer">
+			<p>
+				&copy 2021 - Desarrollado por Mi
+			</p>
+		</footer>
+		
+	<script type="text/javascript">
+function ver(n) {
+         document.getElementById("subseccion"+n).style.display="block"
+         }
+function ocultar(n) {
+         document.getElementById("subseccion"+n).style.display="none"
+         }
+</script>
+	
+</body>
+</html>

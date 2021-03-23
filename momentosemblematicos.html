@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta  charset="utf-8">
+    <meta keywords= "html, up, produccion digital">
+    <title>Oprah Winfrey</title>
+	  
+	  <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	  
+	<link href="css/estilos.css" type="text/css" rel="stylesheet">	
+  </head>
+
+<body>
+	
+	<a name="arriba"></a>
+	
+	<div id= "contenedor">
+		<header class="header">
+			<a href="index.html" >
+			<img class="nombreoprah" src="img/oprahtitulo.png" alt="">
+			</a>
+		
+			<div id="navegador">
+                    <ul>
+                       <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)">
+		               <a herf="">
+						
+						   <img class="barramenu" src="img/barramenu.png" alt=""> 
+					   </a>
+                       <div id="subseccion1">
+                           <p>
+							   <a href="momentosemblematicos.html"> Emblematic Moment</a>
+						   </p>
+                           <p>
+							   <a href="show.html"> Show</a>
+						   </p>
+	                       <p>
+							   <a href="biography.html"> Biography</a>
+						   </p>
+                       </div>
+                       </li>
+                     </ul>
+                       <div class="borrar"></div>
+                    </div>
+		</header>
+	</div>
+	
+	<section>
+		
+		<div class="txtmedalla">
+			<p> She was honored with the precidential medal of freedom - 2013
+			</p>
+		</div>
+		
+		<div class="contenedorslider">
+		     <img src="img/medalla1.jpg" class="mySlides" alt="">
+		     <img src="img/medalla2.jpg" class="mySlides" alt="">
+			 <img src="img/medalla3.jpg" class="mySlides" alt="">
+        </div>
+		
+		<div class="txtmedallasub">
+			<p> the Medal of Freedom is the highest civilian award bestowed by the US government
+			</p>
+		</div>
+		
+		
+		 <div class="arriba">
+		    <a href="#arriba">
+			<img src="img/flechaup.png" alt="arriba">
+			</a>
+	    </div>
+	
+		</section>
+		
+		<footer class="footerE">
+			<p>
+				&copy 2021 - Desarrollado por Mi
+			</p>
+		</footer>
+		
+	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+	// acá define qué elemento entra en el slider
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+	
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Cambia la imagen cada 2 segundos
+}
+</script>
+</body>
+</html>
