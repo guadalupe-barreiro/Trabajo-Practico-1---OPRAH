@@ -491,26 +491,23 @@ margin-top: 10%;
 	
 	            text-align: center;
 	            font-size: 20px;
-	            position: absolute;
-	            top: 40%;
-                left: 65%;
+	            
                }
 
-      .c3columnas { 
-	               width: 80%; 
+     .c3columnas { 
+	               width: 90%; 
 	               left: 10%;
 	               margin-top: 0px;
 	               display: flex;
 	               flex-wrap: wrap;
 	
-	               position: absolute;
-	               top: 55%;
                    }
 
        .c3columnas .imagen{
 	                       width: 90%; 
 	                       display: flex;
                            }
+	
 	   .imagen1txt{
 	               color: rgba(255,255,255,1.00);
 	               position: absolute;
@@ -646,16 +643,16 @@ margin-top: 10%;
 	            text-align: center;
 	            font-size: 20px;
 	            position: fixed;
+		    margin-top: -15%;
                }
 
-      .c3columnas { 
+     .c3columnas { 
 	               width: 80%; 
 	               left: 10%;
-	               margin-top: 0px;
+	               margin-top: 90%;
 	               display: flex;
 	               flex-wrap: wrap;
 	
-	              
 	               
                    }
 
@@ -770,5 +767,6 @@ margin-top: 10%;
                     }
 	
 }
+
 
 
