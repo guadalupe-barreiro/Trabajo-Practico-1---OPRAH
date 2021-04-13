@@ -768,5 +768,93 @@ margin-top: 10%;
 	
 }
 
+.body404{
+	position: fixed;
+	background-color: rgba(0,0,0,1.00);	
+}
+
+.texto404{
+	font-family: 'Bebas Neue';
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+}
+
+.h1404{
+	font-size: 70px;
+	text-shadow: 0.1em 0.1em rgba(212,125,8,1.00);
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	text-align: center;
+}
+
+.h2404{
+	font-size: 50px;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	text-align: center;
+}
+
+.p404{
+	margin-block-start: 0em;
+	font-size: 35px;
+	margin-block-end: 0em;
+}
 
 
+.zoomIt{
+	color: rgba(212,125,8,1.00);
+display:inline-block;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+.zoomIt:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+
+.imagenes{
+	margin-top: 10%;
+}
+
+.Oprah img{
+	width: 60%;
+	margin: 0 auto;	
+	position: relative;
+
+	left: 20%;
+}
+
+
+.animacionbrazo img{
+	width: 60%;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 50%;
+	left: 20%;
+}
+
+.animacionbrazo{
+	width: 100%;
+	margin: 0 auto;	
+	
+	animation-name: movbrazo;
+	animation-duration: 2000ms;
+	animation-iteration-count: infinite;
+}
+
+@keyframes movbrazo{
+	0% 
+	{transform: scale(1,1)}
+	
+	50% 
+	{transform: scale(1.2,1.2)}
+	
+	100% 
+	{transform: scale(1,1)}
+}
